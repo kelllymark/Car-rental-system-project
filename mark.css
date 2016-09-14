@@ -1,0 +1,120 @@
+/*
+  Author: Mark Kelly
+  Date: 03/03/2016
+  File Name: mark.css
+*/
+
+#btnPrint { /* Print rental agreement button */
+  width: 250px;
+  margin-left: 300px;
+}
+
+#rentalForm { /* Rental form */
+  width: 950px;
+  padding: 20px;
+}
+
+/*-------- Report screen --------------*/
+
+#rentalReport { /* Rental report form */
+  width: 950px;
+  padding: 20px;
+}
+
+/* Client info buttons in table rows */
+.btnClientInfo {
+  float: right;
+}
+
+/* For company name data on report table */
+.tdAlignLeft {
+  width: 330px;
+  text-align: left;
+}
+
+/* For styling table headers on report screen */
+#companyName { /* Rental report table head */
+  border: 2px solid #008CBA; /* Blue */
+  width: 330px;
+}
+
+/* For styling table headers on report screen */
+#dateOfRental { /* Rental report table head */
+  border: 2px solid #008CBA; /* Blue */
+  width: 180px;
+}
+
+/* For styling table headers on report screen */
+#durationOfRental { /* Rental report table head */
+  border: 2px solid #008CBA; /* Blue */
+  width: 180px;
+}
+
+/* For styling table headers on report screen */
+#costOfRental { /* Rental report table head */
+  border: 2px solid #008CBA; /* Blue */
+  width: 196px;
+}
+
+/*-------- Rental screen --------------*/
+
+#companyFieldset { /* Company details fieldset */
+  width: 100%;
+}
+
+/* Arrange content on Rental screen */
+#rentalContentLeft { /* Content in left column on Rental screen */
+  float: left;
+  width: 50%;
+}
+
+/* Arrange content on Rental screen */
+#rentalContentRight { /* Content in right column on Rental screen */
+  float: left;
+  width: 50%;
+}
+
+.fieldsetRight { /* for floating fieldsets right */
+  float: right;
+}
+
+#rentalButtons { /* for buttons on rental screen */
+  clear: both;
+  float: right;
+}
+
+/* For styling table headers on rental screen */
+#tdModelName { /* for table headers on rental screen */
+  width: 250px;
+  text-align: left;
+}
+
+/* For styling table headers on rental screen */
+#thModelName { /* for table headers on rental screen */
+  border: 2px solid #008CBA; /* Blue */
+  width: 266px;
+}
+
+/* For styling table headers on rental screen */
+.carTable { /* for table headers on rental screen */
+  border: 2px solid #008CBA; /* Blue */
+  width: 130px;
+}
+
+/* For styling table headers on rental screen */
+#thRegNo { /* for table headers on rental screen */
+  border: 2px solid #008CBA; /* Blue */
+  padding-right: 20px;
+}
+
+/*-------- Rental Agreement Screen --------*/
+
+.rentalAgreement { /* Rental agreement form */
+  width: 850px;
+  padding: 60px;
+  margin: 20px 0 10px 0;
+}
+
+#agreementLogo { /* for logo on rental agreement screen */
+  margin-left: 325px;
+}
